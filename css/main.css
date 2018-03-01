@@ -18,3 +18,11 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+h1 {
+  display: inline-block;
+}
+
+li {
+  display: inline-block;
+}
