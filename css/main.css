@@ -23,7 +23,7 @@ body {
   margin: 0;
 }
 
-.grid {
+header {
   background-color: #e2e2e2;
 }
 
@@ -70,4 +70,5 @@ a:hover {
   a {
     padding: .7em;
   }
+
 }
