@@ -19,8 +19,18 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
+.grid {
+  background-color: #e2e2e2;
+}
+
 ul {
   list-style-type: none;
+  padding: 0;
+  margin-bottom: .5em;
 }
 
 li {
@@ -29,6 +39,17 @@ li {
 
 a {
   text-decoration: none;
+  color: #0074d9;
+  padding: .5em;
+}
+
+a:hover {
+  background-color: #0074d9;
+  color: #fff;
+}
+
+.title {
+  margin-top: .5em;
 }
 
 .title, .list {
@@ -37,11 +58,16 @@ a {
 
 @media only screen and (min-width: 38em) {
 
-.title {
-  text-align: left;
-}
+  .title {
+    text-align: left;
+    padding-left: .5em;
+  }
 
-.list {
-  text-align: right;
-}
+  .list {
+    text-align: right;
+  }
+
+  a {
+    padding: .7em;
+  }
 }
